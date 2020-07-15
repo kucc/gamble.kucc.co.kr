@@ -10,7 +10,7 @@ export const QuizCategoryItem = styled.div`
 
 export const QuizCategoryItemContainer = styled.div`
   display: flex;
-  width: 33%;
+  width: 20rem;
   height: 4.3rem;
   background-color: #5a5a66;
   justify-content: center;

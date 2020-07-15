@@ -21,7 +21,7 @@ export const MainContainer = styled.div`
 `;
 
 export const ButtonsContainer = styled.div`
-  margin-top: 1rem;
+  margin-top: 3rem;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -30,7 +30,7 @@ export const ButtonsContainer = styled.div`
 export const TitleContainer = styled.div``;
 
 export const Title = styled.div`
-  font-size: 1.8rem;
-  font-weight: 600;
-  margin-top: 10rem;
+  font-size: 2.2rem;
+  font-weight: 800;
+  margin-top: 11rem;
 `;

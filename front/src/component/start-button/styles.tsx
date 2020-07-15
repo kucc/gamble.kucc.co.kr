@@ -34,6 +34,7 @@ export const StartButtonContainer = styled.div`
 
 export const ButtonText = styled.div`
   font-size: 1.4rem;
+  padding-right: 4rem;
   justify-content: center;
   color: #fbfffb;
   font-weight: 500;
@@ -55,7 +56,7 @@ export const StartButtonColumn2 = styled.div`
   display: flex;
   width: 100%;
 
-  justify-content: left;
+  justify-content: center;
   align-items: center;
   padding: 0rem 1rem;
 `;
