@@ -1,10 +1,12 @@
 import styled from "styled-components/macro";
+import { STATIC_URL } from "../../constant";
 
 export const Main = styled.div`
   width: 100%;
-  height: 100%;
-
-  padding: 2rem 0rem;
+  height: 100rem;
+  background-image: url(${STATIC_URL.BACKGROUND});
+  background-position: absolute;
+  background-size: auto;
   margin-top: 1rem;
 `;
 

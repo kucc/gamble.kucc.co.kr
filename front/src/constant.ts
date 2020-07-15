@@ -8,8 +8,9 @@ export const STATIC_URL = {
   Trophy: `https://user-images.githubusercontent.com/60877502/87529160-8af10980-c6c9-11ea-8097-587c3709f810.png`,
   QUIZ: `https://user-images.githubusercontent.com/60877502/87529727-5f225380-c6ca-11ea-9fe3-e6fa0cf8afee.png`,
   PLAYBUTTON: `https://user-images.githubusercontent.com/60877502/87544312-3194d480-c6e1-11ea-945e-4a84de3ae581.png`,
-  PROFILE: `https://user-images.githubusercontent.com/60877502/87544647-ca2b5480-c6e1-11ea-93ef-63bccfd0eb2a.png`,
+  PROFILE: `https://user-images.githubusercontent.com/60877502/87563353-12ef0780-c6fa-11ea-9c23-4674cb2f3b56.png`,
   MINIGAME: `https://user-images.githubusercontent.com/60877502/87544826-09f23c00-c6e2-11ea-98b2-1127263e7a82.png`,
+  BACKGROUND: `https://user-images.githubusercontent.com/60877502/87565153-3dda5b00-c6fc-11ea-9497-107cdba965d4.png`,
 };
 
 export const THEME_COLOR = {
