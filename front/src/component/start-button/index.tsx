@@ -7,12 +7,13 @@ interface StartButtonProps {
   text: string;
   icon: string;
   color: string;
+  link: string;
 }
 
 const StartButton: React.FC<StartButtonProps> = (props) => {
   return (
     <S.StartButton>
-      <S.StartButtonContainer>
+      <S.StartButtonContainer to={props.link}>
         <S.StartButtonColumn1>
           <S.ButtonIcon src={props.icon}></S.ButtonIcon>
         </S.StartButtonColumn1>

@@ -15,17 +15,25 @@ const Main: React.FC = () => {
           <S.ButtonsContainer>
             <StartButton
               color="#595965"
+              link={"/quiz"}
               icon={STATIC_URL.PLAYBUTTON}
               text="플레이"
             />
-            <StartButton color="#595965" icon={STATIC_URL.Trophy} text="랭킹" />
             <StartButton
               color="#595965"
+              link={"/rank"}
+              icon={STATIC_URL.Trophy}
+              text="랭킹"
+            />
+            <StartButton
+              color="#595965"
+              link={"/"}
               icon={STATIC_URL.PROFILE}
               text="프로필"
             />
             <StartButton
               color="#595965"
+              link={""}
               icon={STATIC_URL.MINIGAME}
               text="미니게임"
             />

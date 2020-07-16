@@ -1,5 +1,6 @@
 import styled from "styled-components/macro";
 import { THEME_COLOR } from "../../constant";
+import { Link } from "react-router-dom";
 
 interface StartButtonProps {
   text: string;
@@ -14,7 +15,7 @@ export const StartButton = styled.div`
   justify-content: space-between;
 `;
 
-export const StartButtonContainer = styled.div`
+export const StartButtonContainer = styled(Link)`
   display: flex;
   width: 20rem;
   height: 4rem;
