@@ -23,6 +23,7 @@ export const StartButtonContainer = styled(Link)`
   justify-content: space-between;
   align-items: center;
   border-radius: 10px;
+  text-decoration: none;
   &:hover {
     background-color: ${THEME_COLOR.PRIMARY};
     transform: scale(1.2) perspective(0.7rem);

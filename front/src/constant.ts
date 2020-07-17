@@ -14,6 +14,10 @@ export const STATIC_URL = {
   Gold_Medal: `https://user-images.githubusercontent.com/60877502/87629556-3784c700-c76e-11ea-9ea8-0047c0d78b18.png`,
   Silver_Medal: `https://user-images.githubusercontent.com/60877502/87629596-48353d00-c76e-11ea-89ad-536178858cff.png`,
   Bronze_Medal: `https://user-images.githubusercontent.com/60877502/87629611-4ec3b480-c76e-11ea-91ec-9a6d7eea3c0a.png`,
+  BACKGROUND_BLACK: `https://user-images.githubusercontent.com/60877502/87670447-b13aa600-c7aa-11ea-91f0-d1956985f288.png`,
+  Level1_Icon: `https://user-images.githubusercontent.com/60877502/87673331-56f01400-c7af-11ea-9ccd-92545061bf62.png`,
+  Level2_Icon: `https://user-images.githubusercontent.com/60877502/87679434-23b18300-c7b7-11ea-9141-856fa74a2b15.png`,
+  Coin: `https://user-images.githubusercontent.com/60877502/87688838-73497c00-c7c2-11ea-949b-d0c85fa07097.png`,
 };
 
 export const THEME_COLOR = {
