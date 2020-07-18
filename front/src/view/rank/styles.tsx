@@ -1,6 +1,10 @@
 import styled from "styled-components/macro";
 import { STATIC_URL } from "../../constant";
-import { ClickEffect, ButtonHover } from "../../component/animation/keyframe";
+import {
+  ClickEffect,
+  ButtonHover,
+  Spin,
+} from "../../component/animation/keyframe";
 
 export const Rank = styled.div`
   width: 100%;
@@ -110,6 +114,7 @@ export const PointImg = styled.img`
   width: 1.7rem;
   height: 1.7rem;
   margin-left: 0.5rem;
+  animation: ${Spin} 1.5s linear infinite;
 `;
 export const TotalRankContainer = styled.div`
   display: flex;

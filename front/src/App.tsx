@@ -9,14 +9,15 @@ import {
 
 import Main from "./view/main";
 import Rank from "./view/rank";
-import Quiz from "./view/quiz_category";
-
+import QuizCategory from "./view/quiz_category";
+import Quiz from "./view/quiz";
 function App() {
   return (
     <Router>
       <Switch>
         <Route path="/" exact component={Main} />
         <Route path="/rank" component={Rank} />
+        <Route path="/quiz-category" component={QuizCategory} />
         <Route path="/quiz" component={Quiz} />
         <Redirect from="*" to="/" />
       </Switch>

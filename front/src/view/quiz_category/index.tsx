@@ -3,10 +3,10 @@ import Layout from "../../component/layout";
 import * as S from "./styles";
 import QuizCategoryItem from "../../component/quiz-category-item";
 
-const Quiz: React.FC = () => {
+const QuizCategory: React.FC = () => {
   return (
     <Layout>
-      <S.Quiz>
+      <S.QuizCategory>
         <S.QuizContainer>
           <S.CategoryContainer>
             <S.TitleContainer>
@@ -30,9 +30,9 @@ const Quiz: React.FC = () => {
             <QuizCategoryItem text="알쓸신잡"></QuizCategoryItem>
           </S.CategoryContainer>
         </S.QuizContainer>
-      </S.Quiz>
+      </S.QuizCategory>
     </Layout>
   );
 };
 
-export default Quiz;
+export default QuizCategory;

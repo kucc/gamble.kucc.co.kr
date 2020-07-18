@@ -1,7 +1,7 @@
 import styled from "styled-components/macro";
 import { THEME_COLOR, STATIC_URL, BREAKPOINT } from "../../constant";
 
-export const Quiz = styled.div`
+export const QuizCategory = styled.div`
   width: 100%;
   height: 100rem;
   background-image: url(${STATIC_URL.BACKGROUND});

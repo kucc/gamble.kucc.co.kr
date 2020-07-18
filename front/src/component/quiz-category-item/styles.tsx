@@ -8,7 +8,8 @@ export const QuizCategoryItem = styled.div`
   justify-content: center;
 `;
 
-export const QuizCategoryItemContainer = styled.div`
+export const QuizCategoryItemContainer = styled(Link)`
+  text-decoration: none;
   display: flex;
   width: 20rem;
   height: 4.3rem;
@@ -19,7 +20,7 @@ export const QuizCategoryItemContainer = styled.div`
 `;
 export const QuizCategoryIcon = styled.img``;
 
-export const QuizCategoryTitle = styled(Link)`
+export const QuizCategoryTitle = styled.div`
   text-decoration: none;
   color: #fbfffb;
   font-weight: 500;

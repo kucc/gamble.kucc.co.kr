@@ -20,3 +20,12 @@ export const ButtonHover = keyframes`
     transform: scale(1.2) perspective(0.7rem);
   } 
 `;
+
+export const Spin = keyframes`
+  from {
+    transform: none;
+  }
+  to {
+    transform: rotateY(360deg);
+  }
+`;

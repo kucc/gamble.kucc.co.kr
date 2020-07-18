@@ -15,7 +15,7 @@ const Main: React.FC = () => {
           <S.ButtonsContainer>
             <StartButton
               color="#595965"
-              link={"/quiz"}
+              link={"/quiz-category"}
               icon={STATIC_URL.PLAYBUTTON}
               text="플레이"
             />

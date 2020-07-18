@@ -52,7 +52,7 @@ const Rank: React.FC = () => {
                 <S.RankText>1</S.RankText>
               </S.RankColumn>
               <S.RankColumn>
-                <S.RankIcon src={STATIC_URL.Level1_Icon} />
+                <S.RankIcon src={STATIC_URL.Level4_Icon} />
               </S.RankColumn>
               <S.RankColumn>
                 <S.UserName>16 박진용</S.UserName>
@@ -69,7 +69,7 @@ const Rank: React.FC = () => {
                 <S.RankText>2</S.RankText>
               </S.RankColumn>
               <S.RankColumn>
-                <S.RankIcon src={STATIC_URL.Level1_Icon} />
+                <S.RankIcon src={STATIC_URL.Level3_Icon} />
               </S.RankColumn>
               <S.RankColumn>
                 <S.UserName>19 김현채</S.UserName>
@@ -86,7 +86,7 @@ const Rank: React.FC = () => {
                 <S.RankText>3</S.RankText>
               </S.RankColumn>
               <S.RankColumn>
-                <S.RankIcon src={STATIC_URL.Level1_Icon} />
+                <S.RankIcon src={STATIC_URL.Level5_Icon} />
               </S.RankColumn>
               <S.RankColumn>
                 <S.UserName>14 강관훈</S.UserName>
