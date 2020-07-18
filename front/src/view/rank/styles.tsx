@@ -63,14 +63,14 @@ export const SelfRankContainer = styled.div`
   display: flex;
 
   flex-direction: row;
-  justify-content: flex-start;
+  justify-content: absolute;
   align-items: center;
   border-radius: 10px;
   width: 35rem;
-  height: 8.7rem;
+  height: 7.6rem;
   margin-top: 1.7rem;
   margin-bottom: 1.7rem;
-  padding: 1.6rem 1.5rem 1.5rem 1.5rem;
+  padding: 1.6rem 2.5rem 1.5rem 1.5rem;
   border: 0.5px groove;
 `;
 
@@ -80,6 +80,12 @@ export const RankColumn = styled.div`
   flex-direction: column;
   align-items: center;
 `;
+export const RankNumberColumn = styled.div`
+  display: flex;
+  align-items: center;
+  width: 5%;
+  margin-left: 0.5rem;
+`;
 
 export const RankText = styled.div`
   margin-left: 0.5rem;
@@ -87,33 +93,55 @@ export const RankText = styled.div`
   font-size: 1.3rem;
   font-weight: 600;
 `;
+
+export const RankIconColumn = styled.div`
+  display: flex;
+  align-items: center;
+  width: 7%;
+  margin-left: 0.3rem;
+  margin-right: 3rem;
+`;
+
 export const RankIcon = styled.img`
   margin-top: 0.3rem;
   margin-left: 2.6rem;
-  width: 3.7rem;
   height: 3.7rem;
+  width: 3.7rem;
 `;
+
+export const RankUserNameColumn = styled.div`
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  margin-left: 5rem;
+  width: 57.5%;
+`;
+
 export const UserName = styled.div`
   font-size: 1.7rem;
   font-weight: 600;
-  margin-left: 4.1rem;
-  margin-right: 5rem;
 `;
 
-export const PointColumn = styled.div`
+export const RankPointColumn = styled.div`
   display: flex;
-  width: 5.5rem;
-  flex-direction: row;
-  justify-content: right;
+  justify-content: flex-end;
   align-items: center;
+  width: 10%;
+  margin-right: 0.9rem;
 `;
 export const UserPoint = styled.div`
   font-size: 1.5rem;
 `;
+
+export const RankCoinColumn = styled.div`
+  display: flex;
+  align-items: center;
+  width: 5%;
+`;
+
 export const PointImg = styled.img`
   width: 1.7rem;
   height: 1.7rem;
-  margin-left: 0.5rem;
   animation: ${Spin} 1.5s linear infinite;
 `;
 export const TotalRankContainer = styled.div`
@@ -124,12 +152,12 @@ export const TotalRankContainer = styled.div`
 export const UserRankContainer = styled.div`
   display: flex;
   flex-direction: row;
-  justify-content: flex-start;
+  justify-content: absolute;
   align-items: center;
   border-radius: 10px;
   background-color: #f6fbf7;
   width: 35rem;
   height: 7rem;
-  padding: 0.8rem 1.5rem 0.8rem 1.5rem;
+  padding: 0.8rem 2.5rem 0.8rem 1.5rem;
   border-bottom: 0.5px groove;
 `;

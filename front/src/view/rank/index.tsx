@@ -30,243 +30,328 @@ const Rank: React.FC = () => {
             </S.MedalColumn>
           </S.TopThreeContainer>
           <S.SelfRankContainer>
-            <S.RankColumn>
+            <S.RankNumberColumn>
               <S.RankText>1</S.RankText>
-            </S.RankColumn>
-            <S.RankColumn>
+            </S.RankNumberColumn>
+            <S.RankIconColumn>
               <S.RankIcon src={STATIC_URL.Level2_Icon} />
-            </S.RankColumn>
-            <S.RankColumn>
+            </S.RankIconColumn>
+            <S.RankUserNameColumn>
               <S.UserName>16 박진용</S.UserName>
-            </S.RankColumn>
-            <S.RankColumn>
+            </S.RankUserNameColumn>
+            <S.RankPointColumn>
               <S.UserPoint>5773</S.UserPoint>
-            </S.RankColumn>
-            <S.RankColumn>
+            </S.RankPointColumn>
+            <S.RankCoinColumn>
               <S.PointImg src={STATIC_URL.Coin} />
-            </S.RankColumn>
+            </S.RankCoinColumn>
           </S.SelfRankContainer>
           <S.TotalRankContainer>
             <S.UserRankContainer>
-              <S.RankColumn>
+              <S.RankNumberColumn>
                 <S.RankText>1</S.RankText>
-              </S.RankColumn>
-              <S.RankColumn>
+              </S.RankNumberColumn>
+              <S.RankIconColumn>
                 <S.RankIcon src={STATIC_URL.Level4_Icon} />
-              </S.RankColumn>
-              <S.RankColumn>
+              </S.RankIconColumn>
+              <S.RankUserNameColumn>
                 <S.UserName>16 박진용</S.UserName>
-              </S.RankColumn>
-              <S.RankColumn>
+              </S.RankUserNameColumn>
+              <S.RankPointColumn>
                 <S.UserPoint>5773</S.UserPoint>
-              </S.RankColumn>
-              <S.RankColumn>
+              </S.RankPointColumn>
+              <S.RankCoinColumn>
                 <S.PointImg src={STATIC_URL.Coin} />
-              </S.RankColumn>
+              </S.RankCoinColumn>
             </S.UserRankContainer>
             <S.UserRankContainer>
-              <S.RankColumn>
+              <S.RankNumberColumn>
                 <S.RankText>2</S.RankText>
-              </S.RankColumn>
-              <S.RankColumn>
+              </S.RankNumberColumn>
+              <S.RankIconColumn>
                 <S.RankIcon src={STATIC_URL.Level3_Icon} />
-              </S.RankColumn>
-              <S.RankColumn>
-                <S.UserName>19 김현채</S.UserName>
-              </S.RankColumn>
-              <S.RankColumn>
-                <S.UserPoint>10</S.UserPoint>
-              </S.RankColumn>
-              <S.RankColumn>
+              </S.RankIconColumn>
+              <S.RankUserNameColumn>
+                <S.UserName>16 박진용</S.UserName>
+              </S.RankUserNameColumn>
+              <S.RankPointColumn>
+                <S.UserPoint>773</S.UserPoint>
+              </S.RankPointColumn>
+              <S.RankCoinColumn>
                 <S.PointImg src={STATIC_URL.Coin} />
-              </S.RankColumn>
+              </S.RankCoinColumn>
             </S.UserRankContainer>
             <S.UserRankContainer>
-              <S.RankColumn>
-                <S.RankText>3</S.RankText>
-              </S.RankColumn>
-              <S.RankColumn>
+              <S.RankNumberColumn>
+                <S.RankText>1</S.RankText>
+              </S.RankNumberColumn>
+              <S.RankIconColumn>
                 <S.RankIcon src={STATIC_URL.Level5_Icon} />
-              </S.RankColumn>
-              <S.RankColumn>
-                <S.UserName>14 강관훈</S.UserName>
-              </S.RankColumn>
-              <S.RankColumn>
-                <S.UserPoint>5773</S.UserPoint>
-              </S.RankColumn>
-              <S.RankColumn>
+              </S.RankIconColumn>
+              <S.RankUserNameColumn>
+                <S.UserName>16 박진용</S.UserName>
+              </S.RankUserNameColumn>
+              <S.RankPointColumn>
+                <S.UserPoint>73</S.UserPoint>
+              </S.RankPointColumn>
+              <S.RankCoinColumn>
                 <S.PointImg src={STATIC_URL.Coin} />
-              </S.RankColumn>
+              </S.RankCoinColumn>
             </S.UserRankContainer>
             <S.UserRankContainer>
-              <S.RankColumn>
-                <S.RankText>4</S.RankText>
-              </S.RankColumn>
-              <S.RankColumn>
-                <S.RankIcon src={STATIC_URL.Level1_Icon} />
-              </S.RankColumn>
-              <S.RankColumn>
-                <S.UserName>15 서태수</S.UserName>
-              </S.RankColumn>
-              <S.RankColumn>
+              <S.RankNumberColumn>
+                <S.RankText>1</S.RankText>
+              </S.RankNumberColumn>
+              <S.RankIconColumn>
+                <S.RankIcon src={STATIC_URL.Level4_Icon} />
+              </S.RankIconColumn>
+              <S.RankUserNameColumn>
+                <S.UserName>16 박진용진</S.UserName>
+              </S.RankUserNameColumn>
+              <S.RankPointColumn>
                 <S.UserPoint>5773</S.UserPoint>
-              </S.RankColumn>
-              <S.RankColumn>
+              </S.RankPointColumn>
+              <S.RankCoinColumn>
                 <S.PointImg src={STATIC_URL.Coin} />
-              </S.RankColumn>
+              </S.RankCoinColumn>
             </S.UserRankContainer>
             <S.UserRankContainer>
-              <S.RankColumn>
-                <S.RankText>5</S.RankText>
-              </S.RankColumn>
-              <S.RankColumn>
-                <S.RankIcon src={STATIC_URL.Level1_Icon} />
-              </S.RankColumn>
-              <S.RankColumn>
-                <S.UserName>15 이이무원</S.UserName>
-              </S.RankColumn>
-              <S.RankColumn>
+              <S.RankNumberColumn>
+                <S.RankText>1</S.RankText>
+              </S.RankNumberColumn>
+              <S.RankIconColumn>
+                <S.RankIcon src={STATIC_URL.Level4_Icon} />
+              </S.RankIconColumn>
+              <S.RankUserNameColumn>
+                <S.UserName>16 박진용진</S.UserName>
+              </S.RankUserNameColumn>
+              <S.RankPointColumn>
                 <S.UserPoint>5773</S.UserPoint>
-              </S.RankColumn>
-              <S.RankColumn>
+              </S.RankPointColumn>
+              <S.RankCoinColumn>
                 <S.PointImg src={STATIC_URL.Coin} />
-              </S.RankColumn>
+              </S.RankCoinColumn>
+            </S.UserRankContainer>{" "}
+            <S.UserRankContainer>
+              <S.RankNumberColumn>
+                <S.RankText>1</S.RankText>
+              </S.RankNumberColumn>
+              <S.RankIconColumn>
+                <S.RankIcon src={STATIC_URL.Level2_Icon} />
+              </S.RankIconColumn>
+              <S.RankUserNameColumn>
+                <S.UserName>16 박진진</S.UserName>
+              </S.RankUserNameColumn>
+              <S.RankPointColumn>
+                <S.UserPoint>0</S.UserPoint>
+              </S.RankPointColumn>
+              <S.RankCoinColumn>
+                <S.PointImg src={STATIC_URL.Coin} />
+              </S.RankCoinColumn>
+            </S.UserRankContainer>{" "}
+            <S.UserRankContainer>
+              <S.RankNumberColumn>
+                <S.RankText>1</S.RankText>
+              </S.RankNumberColumn>
+              <S.RankIconColumn>
+                <S.RankIcon src={STATIC_URL.Level1_Icon} />
+              </S.RankIconColumn>
+              <S.RankUserNameColumn>
+                <S.UserName>16 박진</S.UserName>
+              </S.RankUserNameColumn>
+              <S.RankPointColumn>
+                <S.UserPoint>53</S.UserPoint>
+              </S.RankPointColumn>
+              <S.RankCoinColumn>
+                <S.PointImg src={STATIC_URL.Coin} />
+              </S.RankCoinColumn>
             </S.UserRankContainer>
             <S.UserRankContainer>
-              <S.RankColumn>
-                <S.RankText>5</S.RankText>
-              </S.RankColumn>
-              <S.RankColumn>
+              <S.RankNumberColumn>
+                <S.RankText>1</S.RankText>
+              </S.RankNumberColumn>
+              <S.RankIconColumn>
                 <S.RankIcon src={STATIC_URL.Level1_Icon} />
-              </S.RankColumn>
-              <S.RankColumn>
-                <S.UserName>15 이무원</S.UserName>
-              </S.RankColumn>
-              <S.RankColumn>
-                <S.UserPoint>5773</S.UserPoint>
-              </S.RankColumn>
-              <S.RankColumn>
+              </S.RankIconColumn>
+              <S.RankUserNameColumn>
+                <S.UserName>16 박진</S.UserName>
+              </S.RankUserNameColumn>
+              <S.RankPointColumn>
+                <S.UserPoint>53</S.UserPoint>
+              </S.RankPointColumn>
+              <S.RankCoinColumn>
                 <S.PointImg src={STATIC_URL.Coin} />
-              </S.RankColumn>
-            </S.UserRankContainer>
+              </S.RankCoinColumn>
+            </S.UserRankContainer>{" "}
             <S.UserRankContainer>
-              <S.RankColumn>
-                <S.RankText>5</S.RankText>
-              </S.RankColumn>
-              <S.RankColumn>
+              <S.RankNumberColumn>
+                <S.RankText>1</S.RankText>
+              </S.RankNumberColumn>
+              <S.RankIconColumn>
                 <S.RankIcon src={STATIC_URL.Level1_Icon} />
-              </S.RankColumn>
-              <S.RankColumn>
-                <S.UserName>15 이무원</S.UserName>
-              </S.RankColumn>
-              <S.RankColumn>
-                <S.UserPoint>5773</S.UserPoint>
-              </S.RankColumn>
-              <S.RankColumn>
+              </S.RankIconColumn>
+              <S.RankUserNameColumn>
+                <S.UserName>16 박진</S.UserName>
+              </S.RankUserNameColumn>
+              <S.RankPointColumn>
+                <S.UserPoint>53</S.UserPoint>
+              </S.RankPointColumn>
+              <S.RankCoinColumn>
                 <S.PointImg src={STATIC_URL.Coin} />
-              </S.RankColumn>
-            </S.UserRankContainer>
+              </S.RankCoinColumn>
+            </S.UserRankContainer>{" "}
             <S.UserRankContainer>
-              <S.RankColumn>
-                <S.RankText>5</S.RankText>
-              </S.RankColumn>
-              <S.RankColumn>
+              <S.RankNumberColumn>
+                <S.RankText>1</S.RankText>
+              </S.RankNumberColumn>
+              <S.RankIconColumn>
                 <S.RankIcon src={STATIC_URL.Level1_Icon} />
-              </S.RankColumn>
-              <S.RankColumn>
-                <S.UserName>15 이무원</S.UserName>
-              </S.RankColumn>
-              <S.RankColumn>
-                <S.UserPoint>5773</S.UserPoint>
-              </S.RankColumn>
-              <S.RankColumn>
+              </S.RankIconColumn>
+              <S.RankUserNameColumn>
+                <S.UserName>16 박진</S.UserName>
+              </S.RankUserNameColumn>
+              <S.RankPointColumn>
+                <S.UserPoint>53</S.UserPoint>
+              </S.RankPointColumn>
+              <S.RankCoinColumn>
                 <S.PointImg src={STATIC_URL.Coin} />
-              </S.RankColumn>
-            </S.UserRankContainer>
+              </S.RankCoinColumn>
+            </S.UserRankContainer>{" "}
             <S.UserRankContainer>
-              <S.RankColumn>
-                <S.RankText>5</S.RankText>
-              </S.RankColumn>
-              <S.RankColumn>
+              <S.RankNumberColumn>
+                <S.RankText>1</S.RankText>
+              </S.RankNumberColumn>
+              <S.RankIconColumn>
                 <S.RankIcon src={STATIC_URL.Level1_Icon} />
-              </S.RankColumn>
-              <S.RankColumn>
-                <S.UserName>15 이무원</S.UserName>
-              </S.RankColumn>
-              <S.RankColumn>
-                <S.UserPoint>5773</S.UserPoint>
-              </S.RankColumn>
-              <S.RankColumn>
+              </S.RankIconColumn>
+              <S.RankUserNameColumn>
+                <S.UserName>16 박진</S.UserName>
+              </S.RankUserNameColumn>
+              <S.RankPointColumn>
+                <S.UserPoint>53</S.UserPoint>
+              </S.RankPointColumn>
+              <S.RankCoinColumn>
                 <S.PointImg src={STATIC_URL.Coin} />
-              </S.RankColumn>
-            </S.UserRankContainer>
+              </S.RankCoinColumn>
+            </S.UserRankContainer>{" "}
             <S.UserRankContainer>
-              <S.RankColumn>
-                <S.RankText>5</S.RankText>
-              </S.RankColumn>
-              <S.RankColumn>
+              <S.RankNumberColumn>
+                <S.RankText>1</S.RankText>
+              </S.RankNumberColumn>
+              <S.RankIconColumn>
                 <S.RankIcon src={STATIC_URL.Level1_Icon} />
-              </S.RankColumn>
-              <S.RankColumn>
-                <S.UserName>15 이무원</S.UserName>
-              </S.RankColumn>
-              <S.RankColumn>
-                <S.UserPoint>5773</S.UserPoint>
-              </S.RankColumn>
-              <S.RankColumn>
+              </S.RankIconColumn>
+              <S.RankUserNameColumn>
+                <S.UserName>16 박진</S.UserName>
+              </S.RankUserNameColumn>
+              <S.RankPointColumn>
+                <S.UserPoint>53</S.UserPoint>
+              </S.RankPointColumn>
+              <S.RankCoinColumn>
                 <S.PointImg src={STATIC_URL.Coin} />
-              </S.RankColumn>
-            </S.UserRankContainer>
+              </S.RankCoinColumn>
+            </S.UserRankContainer>{" "}
             <S.UserRankContainer>
-              <S.RankColumn>
-                <S.RankText>5</S.RankText>
-              </S.RankColumn>
-              <S.RankColumn>
+              <S.RankNumberColumn>
+                <S.RankText>1</S.RankText>
+              </S.RankNumberColumn>
+              <S.RankIconColumn>
                 <S.RankIcon src={STATIC_URL.Level1_Icon} />
-              </S.RankColumn>
-              <S.RankColumn>
-                <S.UserName>15 이무원</S.UserName>
-              </S.RankColumn>
-              <S.RankColumn>
-                <S.UserPoint>5773</S.UserPoint>
-              </S.RankColumn>
-              <S.RankColumn>
+              </S.RankIconColumn>
+              <S.RankUserNameColumn>
+                <S.UserName>16 박진</S.UserName>
+              </S.RankUserNameColumn>
+              <S.RankPointColumn>
+                <S.UserPoint>53</S.UserPoint>
+              </S.RankPointColumn>
+              <S.RankCoinColumn>
                 <S.PointImg src={STATIC_URL.Coin} />
-              </S.RankColumn>
-            </S.UserRankContainer>
+              </S.RankCoinColumn>
+            </S.UserRankContainer>{" "}
             <S.UserRankContainer>
-              <S.RankColumn>
-                <S.RankText>5</S.RankText>
-              </S.RankColumn>
-              <S.RankColumn>
+              <S.RankNumberColumn>
+                <S.RankText>1</S.RankText>
+              </S.RankNumberColumn>
+              <S.RankIconColumn>
                 <S.RankIcon src={STATIC_URL.Level1_Icon} />
-              </S.RankColumn>
-              <S.RankColumn>
-                <S.UserName>15 이무원</S.UserName>
-              </S.RankColumn>
-              <S.RankColumn>
-                <S.UserPoint>5773</S.UserPoint>
-              </S.RankColumn>
-              <S.RankColumn>
+              </S.RankIconColumn>
+              <S.RankUserNameColumn>
+                <S.UserName>16 박진</S.UserName>
+              </S.RankUserNameColumn>
+              <S.RankPointColumn>
+                <S.UserPoint>53</S.UserPoint>
+              </S.RankPointColumn>
+              <S.RankCoinColumn>
                 <S.PointImg src={STATIC_URL.Coin} />
-              </S.RankColumn>
-            </S.UserRankContainer>
+              </S.RankCoinColumn>
+            </S.UserRankContainer>{" "}
             <S.UserRankContainer>
-              <S.RankColumn>
-                <S.RankText>5</S.RankText>
-              </S.RankColumn>
-              <S.RankColumn>
+              <S.RankNumberColumn>
+                <S.RankText>1</S.RankText>
+              </S.RankNumberColumn>
+              <S.RankIconColumn>
                 <S.RankIcon src={STATIC_URL.Level1_Icon} />
-              </S.RankColumn>
-              <S.RankColumn>
-                <S.UserName>15 이무원</S.UserName>
-              </S.RankColumn>
-              <S.RankColumn>
-                <S.UserPoint>5773</S.UserPoint>
-              </S.RankColumn>
-              <S.RankColumn>
+              </S.RankIconColumn>
+              <S.RankUserNameColumn>
+                <S.UserName>16 박진</S.UserName>
+              </S.RankUserNameColumn>
+              <S.RankPointColumn>
+                <S.UserPoint>53</S.UserPoint>
+              </S.RankPointColumn>
+              <S.RankCoinColumn>
                 <S.PointImg src={STATIC_URL.Coin} />
-              </S.RankColumn>
+              </S.RankCoinColumn>
+            </S.UserRankContainer>{" "}
+            <S.UserRankContainer>
+              <S.RankNumberColumn>
+                <S.RankText>1</S.RankText>
+              </S.RankNumberColumn>
+              <S.RankIconColumn>
+                <S.RankIcon src={STATIC_URL.Level1_Icon} />
+              </S.RankIconColumn>
+              <S.RankUserNameColumn>
+                <S.UserName>16 박진</S.UserName>
+              </S.RankUserNameColumn>
+              <S.RankPointColumn>
+                <S.UserPoint>53</S.UserPoint>
+              </S.RankPointColumn>
+              <S.RankCoinColumn>
+                <S.PointImg src={STATIC_URL.Coin} />
+              </S.RankCoinColumn>
+            </S.UserRankContainer>{" "}
+            <S.UserRankContainer>
+              <S.RankNumberColumn>
+                <S.RankText>1</S.RankText>
+              </S.RankNumberColumn>
+              <S.RankIconColumn>
+                <S.RankIcon src={STATIC_URL.Level1_Icon} />
+              </S.RankIconColumn>
+              <S.RankUserNameColumn>
+                <S.UserName>16 박진</S.UserName>
+              </S.RankUserNameColumn>
+              <S.RankPointColumn>
+                <S.UserPoint>53</S.UserPoint>
+              </S.RankPointColumn>
+              <S.RankCoinColumn>
+                <S.PointImg src={STATIC_URL.Coin} />
+              </S.RankCoinColumn>
+            </S.UserRankContainer>{" "}
+            <S.UserRankContainer>
+              <S.RankNumberColumn>
+                <S.RankText>1</S.RankText>
+              </S.RankNumberColumn>
+              <S.RankIconColumn>
+                <S.RankIcon src={STATIC_URL.Level1_Icon} />
+              </S.RankIconColumn>
+              <S.RankUserNameColumn>
+                <S.UserName>16 박진</S.UserName>
+              </S.RankUserNameColumn>
+              <S.RankPointColumn>
+                <S.UserPoint>53</S.UserPoint>
+              </S.RankPointColumn>
+              <S.RankCoinColumn>
+                <S.PointImg src={STATIC_URL.Coin} />
+              </S.RankCoinColumn>
             </S.UserRankContainer>
           </S.TotalRankContainer>
         </S.RankContainer>
