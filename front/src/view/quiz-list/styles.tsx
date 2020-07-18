@@ -1,7 +1,7 @@
 import styled from "styled-components/macro";
 import { STATIC_URL } from "../../constant";
 
-export const Quiz = styled.div`
+export const QuizList = styled.div`
   width: 100%;
   height: 100rem;
   background-image: url(${STATIC_URL.BACKGROUND});
@@ -10,7 +10,7 @@ export const Quiz = styled.div`
   margin-top: 1rem;
 `;
 
-export const QuizContainer = styled.div`
+export const QuizListContainer = styled.div`
   width: 100%;
   height: 100%;
 

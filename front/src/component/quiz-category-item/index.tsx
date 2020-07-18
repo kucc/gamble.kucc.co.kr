@@ -9,7 +9,7 @@ interface QuizCategoryItemProps {
 const QuizCategoryItem: React.FC<QuizCategoryItemProps> = (props) => {
   return (
     <S.QuizCategoryItem>
-      <S.QuizCategoryItemContainer to="/quiz">
+      <S.QuizCategoryItemContainer to="/quiz-list">
         <S.QuizCategoryIcon></S.QuizCategoryIcon>
         <S.QuizCategoryTitle>{props.text}</S.QuizCategoryTitle>
       </S.QuizCategoryItemContainer>

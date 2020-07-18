@@ -4,14 +4,14 @@ import * as S from "./styles";
 import StartButton from "../../component/start-button";
 import { STATIC_URL } from "../../constant";
 
-const Quiz: React.FC = () => {
+const QuizList: React.FC = () => {
   return (
     <Layout>
-      <S.Quiz>
-        <S.QuizContainer>시이이이발~~</S.QuizContainer>
-      </S.Quiz>
+      <S.QuizList>
+        <S.QuizListContainer>퀴즈 리스트 추가예정</S.QuizListContainer>
+      </S.QuizList>
     </Layout>
   );
 };
 
-export default Quiz;
+export default QuizList;
