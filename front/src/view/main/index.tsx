@@ -27,13 +27,13 @@ const Main: React.FC = () => {
             />
             <StartButton
               color="#595965"
-              link={"/"}
+              link={"/profile"}
               icon={STATIC_URL.PROFILE}
               text="프로필"
             />
             <StartButton
               color="#595965"
-              link={""}
+              link={"game"}
               icon={STATIC_URL.MINIGAME}
               text="미니게임"
             />
