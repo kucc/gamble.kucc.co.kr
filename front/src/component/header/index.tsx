@@ -16,9 +16,6 @@ const Header: React.FC<HeaderProps> = () => {
         <S.MobileLogo src={STATIC_URL.LOGO_WITHOUT_TEXT} alt="Mobile Logo" />
       </S.MobileLink>
       <S.DesktopButtons>
-        <S.DesktopLink to="/quiz">
-          <S.Button>퀴즈</S.Button>
-        </S.DesktopLink>
         <S.DesktopLink to="/rank">
           <S.Button>랭킹</S.Button>
         </S.DesktopLink>

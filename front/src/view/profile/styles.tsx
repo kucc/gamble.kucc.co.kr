@@ -76,10 +76,38 @@ export const Coin = styled.img`
   margin-left: 0.8rem;
   animation: ${Spin} 1.5s linear infinite;
 `;
-export const ToggleMenuContainer = styled.div`
+export const TabMenuContainer = styled.div`
+  margin-top: 2rem;
   display: flex;
   flex-direction: row;
+
+  overflow: hidden;
+  background-color: #f1f1f1;
 `;
-export const ToggleButton = styled.div``;
-export const ToggleButtonImage = styled.div``;
-export const ToggleButtonText = styled.div``;
+export const TabLinkButton = styled.button`
+  background-color: inherit;
+  float: left;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 14px 16px;
+  transition: 0.3s;
+
+  &:hover {
+    background-color: #ddd;
+  }
+
+  &:active {
+    background-color: #ccc;
+  }
+`;
+export const TabButtonImage = styled.div``;
+export const TabButtonText = styled.div``;
+export const TabContentContainer = styled.div`
+  display: none;
+  padding: 6px 12px;
+  border: 1px solid #ccc;
+  border-top: none;
+`;
+export const LevelContentContainer = styled.div``;
+export const HistoryContentContainer = styled.div``;

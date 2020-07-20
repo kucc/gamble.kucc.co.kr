@@ -12,6 +12,7 @@ import Rank from "./view/rank";
 import QuizCategory from "./view/quiz_category";
 import QuizList from "./view/quiz-list";
 import Profile from "./view/profile";
+import Quiz from "./view/quiz";
 function App() {
   return (
     <Router>
@@ -21,6 +22,7 @@ function App() {
         <Route path="/quiz-category" component={QuizCategory} />
         <Route path="/quiz-list" component={QuizList} />
         <Route path="/profile" component={Profile} />
+        <Route path_="/quiz" component={Quiz} />
         <Redirect from="*" to="/" />
       </Switch>
     </Router>

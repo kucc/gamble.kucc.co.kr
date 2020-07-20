@@ -24,16 +24,22 @@ const Profile: React.FC = () => {
               </S.UserDecsriptionContainer>
             </S.UserInfoContainer>
           </S.UserProfileContainer>
-          <S.ToggleMenuContainer>
-            <S.ToggleButton>
-              <S.ToggleButtonImage />
-              <S.ToggleButtonText> Level </S.ToggleButtonText>
-            </S.ToggleButton>
-            <S.ToggleButton>
-              <S.ToggleButtonImage />
-              <S.ToggleButtonText> 기록 </S.ToggleButtonText>
-            </S.ToggleButton>
-          </S.ToggleMenuContainer>
+          <S.TabMenuContainer>
+            <S.TabLinkButton>
+              <S.TabButtonText> Level </S.TabButtonText>
+            </S.TabLinkButton>
+            <S.TabLinkButton>
+              <S.TabButtonText> 기록 </S.TabButtonText>
+            </S.TabLinkButton>
+          </S.TabMenuContainer>
+          <S.TabContentContainer>
+            <S.LevelContentContainer>
+              다음 레벨 까지 ~포인트
+            </S.LevelContentContainer>
+            <S.HistoryContentContainer>
+              지금까지 푼 문제
+            </S.HistoryContentContainer>
+          </S.TabContentContainer>
         </S.ProfileContainer>
       </S.Profile>
     </Layout>
