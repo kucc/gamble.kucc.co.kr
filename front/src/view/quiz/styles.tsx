@@ -34,7 +34,8 @@ export const ProblemContainer = styled.div`
   width: 35rem;
   display: flex;
   justify-content: flex-start;
-  margin: 2rem;
+  margin-top: 2rem;
+  margin-bottom: 0.5rem;
 `;
 
 export const ProblemText = styled.div`

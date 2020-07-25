@@ -17,6 +17,14 @@ export const QuizCategoryItemContainer = styled(Link)`
   justify-content: center;
   align-items: center;
   border-radius: 10px;
+  &:hover {
+    background-color: ${THEME_COLOR.PRIMARY};
+    transform: scale(1.2) perspective(0.7rem);
+  }
+  &:active {
+    transform: translateY(-1px);
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+  }
 `;
 export const QuizCategoryIcon = styled.img``;
 
@@ -27,10 +35,4 @@ export const QuizCategoryTitle = styled.div`
   font-size: 2rem;
   border: none;
   border-radius: 5px;
-  &:hover {
-    background-color: #e0456d;
-    color: white;
-
-    transition: background-color 0.5s, color 0.4s;
-  }
 `;

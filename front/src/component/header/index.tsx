@@ -19,7 +19,7 @@ const Header: React.FC<HeaderProps> = () => {
         <S.DesktopLink to="/rank">
           <S.Button>랭킹</S.Button>
         </S.DesktopLink>
-        <S.DesktopLink to="sso.kucc.co.kr">
+        <S.DesktopLink to="https://sso.kucc.co.kr/login">
           <S.Button>로그인</S.Button>
         </S.DesktopLink>
         {/* 로그인 시 -> 로그인 -> 정보 확인 페이지로 전환  

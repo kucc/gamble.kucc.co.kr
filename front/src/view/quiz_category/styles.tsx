@@ -1,5 +1,5 @@
 import styled from "styled-components/macro";
-import { THEME_COLOR, STATIC_URL, BREAKPOINT } from "../../constant";
+import { THEME_COLOR, STATIC_URL } from "../../constant";
 
 export const QuizCategory = styled.div`
   width: 100%;
@@ -9,7 +9,7 @@ export const QuizCategory = styled.div`
   background-size: auto;
 `;
 
-export const QuizContainer = styled.div``;
+export const QuizCategoryContainer = styled.div``;
 
 export const TitleContainer = styled.div`
   width: 100%;

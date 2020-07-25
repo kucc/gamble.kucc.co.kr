@@ -80,19 +80,23 @@ export const TabMenuContainer = styled.div`
   margin-top: 2rem;
   display: flex;
   flex-direction: row;
-
+  width: 26rem;
+  justify-content: space-between;
   overflow: hidden;
   background-color: #f1f1f1;
+  border-radius: 10px;
 `;
 export const TabLinkButton = styled.button`
   background-color: inherit;
+  width: 13rem;
   float: left;
   border: none;
   outline: none;
   cursor: pointer;
   padding: 14px 16px;
   transition: 0.3s;
-
+  align-items: center;
+  justify-content: center;
   &:hover {
     background-color: #ddd;
   }
